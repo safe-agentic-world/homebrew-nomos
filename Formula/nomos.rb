@@ -1,16 +1,16 @@
 class Nomos < Formula
   desc "Zero-trust control plane for AI agent side effects"
   homepage "https://github.com/safe-agentic-world/nomos"
-  version "0.10.1"
+  version "0.10.2"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/safe-agentic-world/nomos/releases/download/v0.10.1/nomos-darwin-arm64.tar.gz"
-      sha256 "1a589edb9c4db683846cd06fb6be06e3173d05e9e451baf5e2c908b5ec193c7e"
+      url "https://github.com/safe-agentic-world/nomos/releases/download/v0.10.2/nomos-darwin-arm64.tar.gz"
+      sha256 "1d2bfb7b8a883070383dbe9368f2fe17f923572c548d672df58be07f81ed0d38"
     else
-      url "https://github.com/safe-agentic-world/nomos/releases/download/v0.10.1/nomos-darwin-amd64.tar.gz"
-      sha256 "acb21b1205ece90da099bb07e5fe90d3093e76338e693cbee9848925311375c4"
+      url "https://github.com/safe-agentic-world/nomos/releases/download/v0.10.2/nomos-darwin-amd64.tar.gz"
+      sha256 "85f795ef946fd11bbbaad1f9db821c0a4eac03a6be91fe1bfc6d2e3f9cdee762"
     end
   end
 
