@@ -1,16 +1,16 @@
 class Nomos < Formula
-  desc "Zero-trust control plane for AI agent side effects"
+  desc "Deny-wins policy hook for Claude Code and Codex"
   homepage "https://github.com/safe-agentic-world/nomos"
-  version "0.19.0"
+  version "0.19.1"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/safe-agentic-world/nomos/releases/download/v0.19.0/nomos-darwin-arm64.tar.gz"
-      sha256 "5112875399f4793ea26db04c69a6c723ee60d2270a07a8c7a23b8d216986ece6"
+      url "https://github.com/safe-agentic-world/nomos/releases/download/v0.19.1/nomos-darwin-arm64.tar.gz"
+      sha256 "3ff54b8e3905a3fcaee23feb04d6385261c3da2e87cd8ad2bac1f8331da20f3a"
     else
-      url "https://github.com/safe-agentic-world/nomos/releases/download/v0.19.0/nomos-darwin-amd64.tar.gz"
-      sha256 "53f573c359ceed7e800e01137ceaf9e2b9580669ef0962d9b4ece59638ff0364"
+      url "https://github.com/safe-agentic-world/nomos/releases/download/v0.19.1/nomos-darwin-amd64.tar.gz"
+      sha256 "ac5b5e8cb89b1981f562cd95021f04e9cf64beb09510626da7bce2f0a6f449ed"
     end
   end
 
